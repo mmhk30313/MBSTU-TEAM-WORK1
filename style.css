@@ -28,7 +28,8 @@ body::-webkit-scrollbar, .scroll-off::-webkit-scrollbar {
 }
 @keyframes transit {
     0% { transform: translate(0,  0px); }
-    50%  { transform: translate(15px, 15px); }
+    50%  { transform: translate(-15px, 15px); }
+    /* 75%  { transform: translate(9px, 7px); } */
     100%   { transform: translate(0, -0px); } 
 }
 @keyframes float{
