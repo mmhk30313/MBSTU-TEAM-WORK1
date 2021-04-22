@@ -16,6 +16,21 @@ body::-webkit-scrollbar, .scroll-off::-webkit-scrollbar {
 }
     /* .info h4{
     } */
+.device-img{
+    /* transform: translateY(-10px), scale(0.5);
+	animation: float 6s ease-in-out infinite; */
+    animation-name: transit;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+@keyframes transit {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(15px, 15px); }
+    100%   { transform: translate(0, -0px); } 
+}
 @keyframes float{
     50%{
         transform: scale(1.09);
