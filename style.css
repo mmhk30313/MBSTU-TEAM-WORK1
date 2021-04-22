@@ -1,0 +1,28 @@
+.scroll-off{
+    overflow-y: scroll;
+}
+body::-webkit-scrollbar, .scroll-off::-webkit-scrollbar {
+    display: none;
+}
+.hover{
+    transition: all ease-in-out 0.8s;
+}
+.hover:hover{
+    transform: scale(1.02);
+}
+.floating{
+    /*     transition: all 2s; */
+    animation: float 1s ease-in-out infinite;
+}
+    /* .info h4{
+    } */
+@keyframes float{
+    50%{
+        transform: scale(1.09);
+    }
+}
+@media(max-width: 767px){
+    .device-img{
+        height: 200px !important;
+    }
+}
