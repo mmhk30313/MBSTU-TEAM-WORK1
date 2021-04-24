@@ -62,7 +62,7 @@ function showDetails(devices){
         div.innerHTML = `
             <img style="height: 350px" class="img-fluid device-img mx-auto" src="${device.img}" alt=""/>
             <h3 class="text-success my-3">${device.name}</h3>
-            <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
+            <div class="p-3">
                 <h3>${device.inventor}</h3>
             </div>
             <p style='height: 160px' class="text-warning scroll-off"><small>${device.des}</small></p>
